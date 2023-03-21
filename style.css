@@ -1,0 +1,33 @@
+body {
+    background-color:darkslategray;
+    
+}
+main {
+    display:flex;
+}
+h1, h2, p {
+    color:rgb(230, 42, 230);
+}
+nav p {
+    color:white;
+}
+section {
+    display:block;
+    border:2px dashed white;
+    width:300px;
+
+}
+.card-header {
+    border:2px solid white;
+    border-radius: 5px;
+    width:200px;
+    justify-content: flex-start;
+}
+.card-text {
+    flex-wrap: wrap;
+}
+pre {
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+}
+
